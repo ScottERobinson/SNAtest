@@ -1,0 +1,345 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Social Network Analysis for Emergency Management",
+    "section": "",
+    "text": "Preface\nThis text is intended to illustrate how to compare emergency management networks (and other formal administrative networks). It will introduce the basics of social network analysis and visalization alongside a substantive comparison of the formal emergency management networks in the US and Bangladesh.\nThe text will use the R statistical package and a variety of R packages to conduct the analysis. The data and code are all available within the text and online to facilitate reproduction of and experimentation with the various analytical processes illustrated here. The textbook assumes a basic familiarity with R – but only a basic level of familiarity. You will need to be able to install R and how to enter basic commands and run code. There are many online resources to help with these basics. Working through the code in the book will help develop basic R skills as well as introduce how to use R for social network analysis."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "measurement.html#the-importance-of-measurement",
+    "href": "measurement.html#the-importance-of-measurement",
+    "title": "3  Measuring Emergency Management Networks",
+    "section": "3.1 The Importance of Measurement",
+    "text": "3.1 The Importance of Measurement"
+  },
+  {
+    "objectID": "measurement.html#survey-measures",
+    "href": "measurement.html#survey-measures",
+    "title": "3  Measuring Emergency Management Networks",
+    "section": "3.2 Survey Measures",
+    "text": "3.2 Survey Measures"
+  },
+  {
+    "objectID": "measurement.html#documentary-measures",
+    "href": "measurement.html#documentary-measures",
+    "title": "3  Measuring Emergency Management Networks",
+    "section": "3.3 Documentary Measures",
+    "text": "3.3 Documentary Measures"
+  },
+  {
+    "objectID": "measurement.html#representing-networks-as-data",
+    "href": "measurement.html#representing-networks-as-data",
+    "title": "3  Measuring Emergency Management Networks",
+    "section": "3.4 Representing Networks as Data",
+    "text": "3.4 Representing Networks as Data\n\n3.4.1 Adjacency Matrices\n\n\n3.4.2 Node list / Edge list Datasets\n\n\n3.4.3 Complex networks: directed, signed, valued, and multiplex networks"
+  },
+  {
+    "objectID": "measurement.html#case-study-building-the-gob-emergency-management-network-data",
+    "href": "measurement.html#case-study-building-the-gob-emergency-management-network-data",
+    "title": "3  Measuring Emergency Management Networks",
+    "section": "3.5 Case Study: Building The GoB Emergency Management Network Data",
+    "text": "3.5 Case Study: Building The GoB Emergency Management Network Data"
+  },
+  {
+    "objectID": "networksinem.html#networks-in-administration-and-policy",
+    "href": "networksinem.html#networks-in-administration-and-policy",
+    "title": "2  Emergency Management Networks",
+    "section": "2.1 Networks in Administration and Policy",
+    "text": "2.1 Networks in Administration and Policy"
+  },
+  {
+    "objectID": "networksinem.html#networks-in-emergency-management",
+    "href": "networksinem.html#networks-in-emergency-management",
+    "title": "2  Emergency Management Networks",
+    "section": "2.2 Networks in Emergency Management",
+    "text": "2.2 Networks in Emergency Management"
+  },
+  {
+    "objectID": "networksinem.html#balancing-hierarchy-and-sponteneity-hierarchical-networks",
+    "href": "networksinem.html#balancing-hierarchy-and-sponteneity-hierarchical-networks",
+    "title": "2  Emergency Management Networks",
+    "section": "2.3 Balancing Hierarchy and Sponteneity – Hierarchical Networks",
+    "text": "2.3 Balancing Hierarchy and Sponteneity – Hierarchical Networks"
+  },
+  {
+    "objectID": "networksinem.html#core-players",
+    "href": "networksinem.html#core-players",
+    "title": "2  Emergency Management Networks",
+    "section": "2.4 Core Players",
+    "text": "2.4 Core Players\n\n2.4.1 Centrality\n\n\n2.4.2 Closenesss"
+  },
+  {
+    "objectID": "networksinem.html#vulnerability-of-emergency-management-networks",
+    "href": "networksinem.html#vulnerability-of-emergency-management-networks",
+    "title": "2  Emergency Management Networks",
+    "section": "2.5 Vulnerability of Emergency Management Networks",
+    "text": "2.5 Vulnerability of Emergency Management Networks\n\n2.5.1 Cliques\n\n\n2.5.2 Articulation Points"
+  },
+  {
+    "objectID": "intro.html#the-inescapability-of-networks-in-understanding-emergency-management",
+    "href": "intro.html#the-inescapability-of-networks-in-understanding-emergency-management",
+    "title": "Introduction",
+    "section": "The Inescapability of Networks in Understanding Emergency Management",
+    "text": "The Inescapability of Networks in Understanding Emergency Management"
+  },
+  {
+    "objectID": "intro.html#comparative-emergency-management",
+    "href": "intro.html#comparative-emergency-management",
+    "title": "Introduction",
+    "section": "Comparative Emergency Management",
+    "text": "Comparative Emergency Management"
+  },
+  {
+    "objectID": "intro.html#our-stories-with-disasters",
+    "href": "intro.html#our-stories-with-disasters",
+    "title": "Introduction",
+    "section": "Our Stories with Disasters",
+    "text": "Our Stories with Disasters"
+  },
+  {
+    "objectID": "Netlevel.html#network-level-characteristics",
+    "href": "Netlevel.html#network-level-characteristics",
+    "title": "4  Network Level Characteristics of Emergency Management Networks",
+    "section": "4.1 Network Level Characteristics",
+    "text": "4.1 Network Level Characteristics\n\n4.1.1 Components\n\n\n4.1.2 Size and Diameter\n\n\n4.1.3 Density\n\n\n4.1.4 Creating Random Networks"
+  },
+  {
+    "objectID": "Nodelevel.html",
+    "href": "Nodelevel.html",
+    "title": "5  Node Level Characteristics",
+    "section": "",
+    "text": "6 Node-Level Characteristics of Emergency Management Networks"
+  },
+  {
+    "objectID": "Nodelevel.html#centrality",
+    "href": "Nodelevel.html#centrality",
+    "title": "5  Node Level Characteristics",
+    "section": "6.1 Centrality",
+    "text": "6.1 Centrality\n\n6.1.1 Betweeness\n\n\n6.1.2 Closeness\n\n\n6.1.3 Rank-models\n\n\n6.1.4 Performing a Single Network Assessment"
+  },
+  {
+    "objectID": "Conclusion.html#network-analysis-as-fundamental-to-emergency-management",
+    "href": "Conclusion.html#network-analysis-as-fundamental-to-emergency-management",
+    "title": "12  Conclusion",
+    "section": "12.1 Network Analysis as Fundamental to Emergency Management",
+    "text": "12.1 Network Analysis as Fundamental to Emergency Management"
+  },
+  {
+    "objectID": "Conclusion.html#advancements-in-network-analysis",
+    "href": "Conclusion.html#advancements-in-network-analysis",
+    "title": "12  Conclusion",
+    "section": "12.2 Advancements in Network Analysis",
+    "text": "12.2 Advancements in Network Analysis"
+  },
+  {
+    "objectID": "Conclusion.html#advancements-in-management-of-networks",
+    "href": "Conclusion.html#advancements-in-management-of-networks",
+    "title": "12  Conclusion",
+    "section": "12.3 Advancements in Management of Networks",
+    "text": "12.3 Advancements in Management of Networks"
+  },
+  {
+    "objectID": "Conclusion.html#future-directions-in-comparative-emergency-management-networks",
+    "href": "Conclusion.html#future-directions-in-comparative-emergency-management-networks",
+    "title": "12  Conclusion",
+    "section": "12.4 Future Directions in Comparative Emergency Management Networks",
+    "text": "12.4 Future Directions in Comparative Emergency Management Networks"
+  },
+  {
+    "objectID": "Egocentric.html#an-aside",
+    "href": "Egocentric.html#an-aside",
+    "title": "6  Ego-centric Analysis of Networking",
+    "section": "6.1 An Aside",
+    "text": "6.1 An Aside"
+  },
+  {
+    "objectID": "Egocentric.html#models-of-attachment",
+    "href": "Egocentric.html#models-of-attachment",
+    "title": "6  Ego-centric Analysis of Networking",
+    "section": "6.2 Models of Attachment",
+    "text": "6.2 Models of Attachment"
+  },
+  {
+    "objectID": "Egocentric.html#models-of-embedded-behavior",
+    "href": "Egocentric.html#models-of-embedded-behavior",
+    "title": "6  Ego-centric Analysis of Networking",
+    "section": "6.3 Models of Embedded Behavior",
+    "text": "6.3 Models of Embedded Behavior"
+  },
+  {
+    "objectID": "Netlogit.html#network-similarity",
+    "href": "Netlogit.html#network-similarity",
+    "title": "7  Network Logistic Models of Emergency Management Networks",
+    "section": "7.1 Network Similarity",
+    "text": "7.1 Network Similarity"
+  },
+  {
+    "objectID": "Netlogit.html#network-logit-models",
+    "href": "Netlogit.html#network-logit-models",
+    "title": "7  Network Logistic Models of Emergency Management Networks",
+    "section": "7.2 Network Logit Models",
+    "text": "7.2 Network Logit Models"
+  },
+  {
+    "objectID": "Netlogit.html#advanced-models",
+    "href": "Netlogit.html#advanced-models",
+    "title": "7  Network Logistic Models of Emergency Management Networks",
+    "section": "7.3 Advanced Models",
+    "text": "7.3 Advanced Models\n\n7.3.1 Bi-partite Networks\n\n\n7.3.2 Valued Networks"
+  },
+  {
+    "objectID": "Ergms.html#network-development",
+    "href": "Ergms.html#network-development",
+    "title": "8  Exponential Random Graph Models for Emergency Management Networks",
+    "section": "8.1 Network Development",
+    "text": "8.1 Network Development"
+  },
+  {
+    "objectID": "Ergms.html#ergms-for-models-of-attachment",
+    "href": "Ergms.html#ergms-for-models-of-attachment",
+    "title": "8  Exponential Random Graph Models for Emergency Management Networks",
+    "section": "8.2 ERGMs for Models of Attachment",
+    "text": "8.2 ERGMs for Models of Attachment"
+  },
+  {
+    "objectID": "Ergms.html#advanced-attachment-models",
+    "href": "Ergms.html#advanced-attachment-models",
+    "title": "8  Exponential Random Graph Models for Emergency Management Networks",
+    "section": "8.3 Advanced Attachment Models",
+    "text": "8.3 Advanced Attachment Models\n\n8.3.1 Directed Models\n\n\n8.3.2 TERGMS"
+  },
+  {
+    "objectID": "Assessment.html#the-value-of-a-network-assessment",
+    "href": "Assessment.html#the-value-of-a-network-assessment",
+    "title": "9  Performing a Network Assessment",
+    "section": "9.1 The Value of a Network Assessment",
+    "text": "9.1 The Value of a Network Assessment"
+  },
+  {
+    "objectID": "Assessment.html#collecing-single-network-data",
+    "href": "Assessment.html#collecing-single-network-data",
+    "title": "9  Performing a Network Assessment",
+    "section": "9.2 Collecing Single Network Data",
+    "text": "9.2 Collecing Single Network Data"
+  },
+  {
+    "objectID": "Assessment.html#analysis-for-community-assessment",
+    "href": "Assessment.html#analysis-for-community-assessment",
+    "title": "9  Performing a Network Assessment",
+    "section": "9.3 Analysis for Community Assessment",
+    "text": "9.3 Analysis for Community Assessment"
+  },
+  {
+    "objectID": "Assessment.html#visualization-and-presentation-for-a-network-assessments",
+    "href": "Assessment.html#visualization-and-presentation-for-a-network-assessments",
+    "title": "9  Performing a Network Assessment",
+    "section": "9.4 Visualization and Presentation for a Network Assessments",
+    "text": "9.4 Visualization and Presentation for a Network Assessments"
+  },
+  {
+    "objectID": "Communication.html",
+    "href": "Communication.html",
+    "title": "10  Communication Networks",
+    "section": "",
+    "text": "I am not positive we need this chapter."
+  },
+  {
+    "objectID": "Outcome.html#network-performance",
+    "href": "Outcome.html#network-performance",
+    "title": "11  Network Analysis as an Outcome Assessment",
+    "section": "11.1 Network Performance",
+    "text": "11.1 Network Performance"
+  },
+  {
+    "objectID": "Outcome.html#networks-performance-vs.-organizational-performance",
+    "href": "Outcome.html#networks-performance-vs.-organizational-performance",
+    "title": "11  Network Analysis as an Outcome Assessment",
+    "section": "11.2 Networks Performance vs. Organizational Performance",
+    "text": "11.2 Networks Performance vs. Organizational Performance"
+  },
+  {
+    "objectID": "Outcome.html#measuring-network-outcomes",
+    "href": "Outcome.html#measuring-network-outcomes",
+    "title": "11  Network Analysis as an Outcome Assessment",
+    "section": "11.3 Measuring Network Outcomes",
+    "text": "11.3 Measuring Network Outcomes\n\n11.3.1 Outcomes vs. Outputs\n\n\n11.3.2 Network Structure and Network Outputs/Outcomes"
+  },
+  {
+    "objectID": "Outcome.html#network-structure-as-an-outcome",
+    "href": "Outcome.html#network-structure-as-an-outcome",
+    "title": "11  Network Analysis as an Outcome Assessment",
+    "section": "11.4 Network Structure as an Outcome",
+    "text": "11.4 Network Structure as an Outcome"
+  },
+  {
+    "objectID": "Applications.html#putting-network-analysis-into-practice",
+    "href": "Applications.html#putting-network-analysis-into-practice",
+    "title": "Applications of Network Analysis for Emergency Management",
+    "section": "Putting Network Analysis into Practice",
+    "text": "Putting Network Analysis into Practice"
+  },
+  {
+    "objectID": "Intro2.html#quarto",
+    "href": "Intro2.html#quarto",
+    "title": "1  Intro2",
+    "section": "1.1 Quarto",
+    "text": "1.1 Quarto\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "Intro2.html#running-code",
+    "href": "Intro2.html#running-code",
+    "title": "1  Intro2",
+    "section": "1.2 Running Code",
+    "text": "1.2 Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "Descriptive.html#the-purposes-and-limitations-of-descriptive-network-analysis",
+    "href": "Descriptive.html#the-purposes-and-limitations-of-descriptive-network-analysis",
+    "title": "Descriptive Network Analysis",
+    "section": "The Purposes and Limitations of Descriptive Network Analysis",
+    "text": "The Purposes and Limitations of Descriptive Network Analysis"
+  },
+  {
+    "objectID": "Inferential.html#the-power-and-limits-of-inferential-analysis",
+    "href": "Inferential.html#the-power-and-limits-of-inferential-analysis",
+    "title": "Inferential Network Analysis",
+    "section": "The Power and Limits of Inferential Analysis",
+    "text": "The Power and Limits of Inferential Analysis"
+  },
+  {
+    "objectID": "Inferential.html#the-particular-challenges-of-inferential-network-analysis",
+    "href": "Inferential.html#the-particular-challenges-of-inferential-network-analysis",
+    "title": "Inferential Network Analysis",
+    "section": "The Particular Challenges of Inferential Network Analysis",
+    "text": "The Particular Challenges of Inferential Network Analysis"
+  },
+  {
+    "objectID": "Intro2.html#the-strategy-of-the-book",
+    "href": "Intro2.html#the-strategy-of-the-book",
+    "title": "1  Introduction to the Volume",
+    "section": "1.1 The Strategy of the Book",
+    "text": "1.1 The Strategy of the Book"
+  },
+  {
+    "objectID": "Intro2.html#audience",
+    "href": "Intro2.html#audience",
+    "title": "1  Introduction to the Volume",
+    "section": "1.2 Audience",
+    "text": "1.2 Audience"
+  },
+  {
+    "objectID": "Intro2.html#brief-outline",
+    "href": "Intro2.html#brief-outline",
+    "title": "1  Introduction to the Volume",
+    "section": "1.3 Brief Outline",
+    "text": "1.3 Brief Outline"
+  }
+]

@@ -1,0 +1,19 @@
+# Emergency Management Networks
+
+## Networks in Administration and Policy
+
+## Networks in Emergency Management
+
+## Balancing Hierarchy and Sponteneity -- Hierarchical Networks
+
+## Core Players
+
+### Centrality
+
+### Closenesss
+
+## Vulnerability of Emergency Management Networks
+
+### Cliques
+
+### Articulation Points

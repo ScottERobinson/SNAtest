@@ -1,0 +1,15 @@
+---
+title: "Network Level Characteristics of Emergency Management Networks"
+format: html
+editor: source
+---
+
+## Network Level Characteristics
+
+### Components
+
+### Size and Diameter
+
+### Density
+
+### Creating Random Networks

@@ -1,0 +1,14 @@
+---
+title: "Network Logistic Models of Emergency Management Networks"
+format: html
+---
+
+## Network Similarity
+
+## Network Logit Models
+
+## Advanced Models
+
+### Bi-partite Networks
+  
+### Valued Networks

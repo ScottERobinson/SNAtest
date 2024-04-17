@@ -1,0 +1,17 @@
+# Measuring Emergency Management Networks
+
+## The Importance of Measurement
+
+## Survey Measures
+
+## Documentary Measures
+
+## Representing Networks as Data
+
+### Adjacency Matrices
+
+### Node list / Edge list Datasets
+
+### Complex networks: directed, signed, valued, and multiplex networks
+
+## Case Study: Building The GoB Emergency Management Network Data

@@ -1,0 +1,16 @@
+---
+title: "Node Level Characteristics"
+format: html
+---
+
+# Node-Level Characteristics of Emergency Management Networks
+
+## Centrality
+
+### Betweeness
+
+### Closeness
+
+### Rank-models
+
+### Performing a Single Network Assessment

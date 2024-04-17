@@ -1,0 +1,8 @@
+---
+title: "Inferential Network Analysis"
+format: html
+---
+
+## The Power and Limits of Inferential Analysis
+
+## The Particular Challenges of Inferential Network Analysis

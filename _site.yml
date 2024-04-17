@@ -1,0 +1,44 @@
+project:
+  type: book
+
+book:
+  title: "Social Network Analysis for Emergency Management"
+  author: "Scott E. Robinson"
+  date: "12/25/2023"
+  chapters: 
+  
+    - part: intro.qmd
+      chapters:
+      - index.qmd
+      - Intro2.qmd
+      - networksinem.qmd
+    
+    - part: Descriptive.qmd
+      chapters:
+      - measurement.qmd
+      - Netlevel.qmd
+      - Nodelevel.qmd
+    
+    - part: Inferential.qmd
+      chapters:  
+      - Egocentric.qmd
+      - Netlogit.qmd
+      - Ergms.qmd
+      - Assessment.qmd
+    
+    - part: Applications.qmd
+      chapters:  
+      - Communication.qmd
+      - Outcome.qmd
+      - Conclusion.qmd
+
+    
+      - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt

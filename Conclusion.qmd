@@ -1,0 +1,12 @@
+---
+title: "Conclusion"
+format: html
+---
+
+## Network Analysis as Fundamental to Emergency Management
+
+## Advancements in Network Analysis
+
+## Advancements in Management of Networks
+
+## Future Directions in Comparative Emergency Management Networks

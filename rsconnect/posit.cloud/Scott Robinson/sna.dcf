@@ -1,0 +1,14 @@
+name: sna
+title: SNA
+username: Scott Robinson
+account: Scott Robinson
+server: posit.cloud
+hostUrl: https://api.posit.cloud/v1
+appId: 7338969
+bundleId: 8130198
+url: https://posit.cloud/content/7338969
+version: 1
+quarto_version: 1.3.450
+quarto_engines: markdown
+asMultiple: FALSE
+asStatic: FALSE

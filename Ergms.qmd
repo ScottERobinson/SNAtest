@@ -1,0 +1,14 @@
+---
+title: "Exponential Random Graph Models for Emergency Management Networks"
+format: html
+---
+
+## Network Development
+
+## ERGMs for Models of Attachment
+
+## Advanced Attachment Models
+
+### Directed Models
+
+### TERGMS

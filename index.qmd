@@ -1,0 +1,5 @@
+# Preface {.unnumbered}
+
+This text is intended to illustrate how to compare emergency management networks (and other formal administrative networks). It will introduce the basics of social network analysis and visalization alongside a substantive comparison of the formal emergency management networks in the US and Bangladesh. 
+
+The text will use the R statistical package and a variety of R packages to conduct the analysis.  The data and code are all available within the text and online to facilitate reproduction of and experimentation with the various analytical processes illustrated here. The textbook assumes a basic familiarity with R -- but only a basic level of familiarity.  You will need to be able to install R and how to enter basic commands and run code. There are many online resources to help with these basics. Working through the code in the book will help develop basic R skills as well as introduce how to use R for social network analysis. 
